@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Stud.master.cs" Inherits="VPLab7.Stud" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <link rel="stylesheet" href ="SignLogstyle.css" />
+  <link rel="stylesheet" href ="Adminstyle.css" />
+</head>
+<body>
+        <form id="form1" runat="server">
+    <!-- Navbar at the Top -->
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="./images/logo.png" alt="Logo" />
+        </div>
+        <h1>Student Dashboard</h1>
+        
+        
+        <div>
+            <asp:Button ID="btnlog" runat="server" Text="Logout" CssClass="btn-log" OnClick="btnlogout_Click" />
+        </div>
+    </div>
+
+    <!-- Main Layout: Sidebar + Content -->
+    <div class="main-layout">
+        <!-- Sidebar with Menu Items -->
+        <div class="sidebar">
+            <!-- Menu Items -->
+
+            <a href="StudentMain.aspx">Home</a>
+            <a href="StudProfile.aspx">Profile</a>
+            
+            <a href="StudExam.aspx">Exams</a>
+            
+            <a href="StudRes.aspx">Result</a>
+           
+               
+             
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+</form>
+</body>
+</html>

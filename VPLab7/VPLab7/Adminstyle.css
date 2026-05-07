@@ -1,0 +1,110 @@
+﻿body {
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Full height */
+
+}
+
+/* Navbar at the Top */
+.navbar {
+    background-color: #012E56;
+  
+    color: white;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+   
+    .navbar .logo-container img {
+        width: 200px;
+        height: 100px;
+        margin: 0;
+        padding: 1px;
+       
+        border-radius: 10px;
+        
+    }
+
+.btn-log {
+    background-color: #5D89A6;
+    color: white;
+    border: 2px solid #C0C0C0;
+    padding: 7px 12px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top:25px;
+    margin-right: 40px;
+    font-family: Cambria;
+    font-weight:200;
+}
+
+    .btn-log:hover {
+        background-color: #7FA9C2;
+    }
+
+
+.main-layout {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    overflow: hidden; /* To ensure content fits perfectly within the layout */
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #012E56;
+    color: white;
+    /* height: 120vh;*/
+    
+
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Adjust height dynamically */
+    min-height: 100vh; /* Ensure it still fills the screen height at minimum */
+}
+
+    .sidebar a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+    }
+
+        .sidebar a:hover {
+            background-color: gainsboro;
+            color: black;
+        }
+    .sidebar h3 {
+        font-family:'Times New Roman';
+        font-size:35px;
+        margin: 5px; /* Removes all margins */
+        padding: 10px 0; /* Adds some padding for spacing */
+        text-align: left; /* Aligns text to the left */
+        width: 100%; /* Ensures it aligns with the rest of the sidebar content */
+        color: white; /* Matches the sidebar text color */
+    }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color:gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+   

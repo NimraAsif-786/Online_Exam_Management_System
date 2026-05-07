@@ -1,0 +1,112 @@
+﻿body {
+    /* Body and General Page Styling */
+    background-color: gainsboro;
+}
+
+h4 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 40px;
+    color: #2C4C73;
+    margin: 1px;
+    margin-bottom: 30px;
+}
+
+.container { /* Container(whole form) Styling */
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group { /* Form Labels& txtboxes Styling */
+    text-align: left;
+    font-weight: bold;
+    color: #2C4C73;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    padding: 8px;
+    margin-bottom: 2px;
+
+   
+}
+
+.form-control { /* Textboxes styling */
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.form-group select.form-control { /* Drop-down List Styling */
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+    border: 2px solid;
+    /*    background-color: #f9f9f9;*/
+    font-size: 18px;
+}
+
+/*.btn-primary {*/ /* primary Button Styling */
+    /*background-color: teal;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70%;
+    margin: 40px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    font-family: Cambria;
+    font-weight: inherit;
+    font-size: 25px;
+}
+
+    .btn-primary:hover {
+        background-color: cadetblue;
+    }*/
+
+
+.lbl{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-family:'Arial Unicode MS';
+    color:mediumseagreen;
+}
+
+
+.button-row {
+    display: flex; 
+    justify-content:start; 
+    gap: 10px; 
+    margin-bottom:30px; 
+    
+}
+
+.btn-crud {
+    background-color: #2C4C73;
+    font-family: Cambria;
+    font-weight: inherit;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+/*    margin-top: 40px;*/
+}
+
+    .btn-crud:hover {
+        background-color: #335B7B;
+    }
+
+
+
